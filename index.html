@@ -14,17 +14,17 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Michalis Iakovides</strong><br />
-					MSc Robotics <br/>
-					BEng Mechatronic Engineering <br/>
-					Interested in Autonomous Vehicles,<br/>
-					S.L.A.M, Computer Vision and A.I <br />
-										
-				</div>
-			</header>
+		<header id="header">
+			<div class="inner">
+				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+				<h1><strong>Michalis Iakovides</strong><br />
+				<span class="highlight">MSc Robotics</span> <br/>
+				<span class="highlight">BEng Mechatronic Engineering</span> <br/>
+				<span class="highlight">Interested in Autonomous Vehicles,</span><br/>
+				<span class="highlight">S.L.A.M, Computer Vision and A.I</span> <br />
+			</div>
+		</header>
+		
 
 		<!-- Main -->
 			<div id="main">
@@ -34,10 +34,11 @@
 						<header class="major">
 							<h2>About Me</h2>
 						</header>
-						<p>
-I'm a postgraduate student at the University of Manchester studying Robotics. My academic journey has equipped me with a strong foundation in robotics, computer vision, and machine learning, while my hands-on experience spans a wide range of technologies and tools.</br>
-I'm passionate about technology and love working with the latest software and hardware and solving problems.</p>
-						
+						<p>I am a postgraduate student at the University of Manchester, studying Robotics. 
+							My academic journey has equipped me with a strong foundation in robotics, computer vision,
+							and machine learning, while my hands-on experience spans a wide range of technologies and tools.<br>
+							I am passionate about technology and love working with the latest software and hardware to solve problems.<br>
+							In the future, I would like to start a startup focusing on a field that interests me, such as Autonomous Vehicles, SLAM, Computer Vision, and AI.</p>
 					</section>
 
 				<!-- Two -->
@@ -59,58 +60,77 @@ I'm passionate about technology and love working with the latest software and ha
 						
 					</section>
 
-
-
-
 				<!-- Two -->
 					<section id="uniproj">
 						<h2>UNIVERSITY PROJECTS</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/leorover.mp4" target="_blank" rel="noopener noreferrer"  class="image fit thumb"><img src="images/fulls/leorover.gif" alt="" /></a>
+								<h3><a href="https://github.com/ziyicheng427/RobotDesign_Group5" target="_blank" rel="noopener noreferrer">Leo Rover Group Project</a></h3>
+								<h3><a href="" target="_blank" rel="noopener noreferrer" onclick="openFusion360Popup(); return false;">[View 3D Model]</a></h3>						
+								<p>My role in the team was to develop the navigation and mapping algorithms using ROS2 Python.
+									The robot was running an EKF by utilising its LiDAR,wheel encoders, and IMU to generate a map of its surroundings and localise
+									itself. The robot was also capable of exploring an unknown environment using the Wavefront Exploration algorithm and retreive an object back to
+									its starting position.
+								</p>
+								<div id="fusion360Modal" class="modal">
+									<div class="modal-content">
+										<span class="close" onclick="closeFusion360Popup(event)">&times;</span>
+										<iframe id="fusion360Viewer" src="" frameborder="0"></iframe>
+									</div>
+								</div>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/astar.mp4" target="_blank" rel="noopener noreferrer"  class="image fit thumb"><img src="images/fulls/astar.gif" alt="" /></a>
+								<h3><a href="https://github.com/michalisiakovides/A-Star-Algorithm" target="_blank" rel="noopener noreferrer">A Star Algorithm</a></h3>
+								<p>The A* path planning algorithm was implemented within a graphical user interface using Python. 
+									The user can place start and end points, as well as obstacles, in the GUI and visualise the shortest path.								</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/mnist.mp4" target="_blank" rel="noopener noreferrer"  class="image fit thumb"><img src="images/fulls/mnist.gif" alt="" /></a>
+								<h3><a href="https://github.com/michalisiakovides/MNIST-PyTorch" target="_blank" rel="noopener noreferrer">Handwritten Digit Recognition using CNN</a></h3>
+								<p>A Convolutional Neural Network(CNN) was built to classify handwritten digits using the MNIST dataset. 
+									The CNN was based on the classic LeNet-5 architecture. PyTorch was used to implement and evaluate the CNN, achieving over 98% accuracy across training, validation, and testing phases.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/car.mp4"target="_blank" rel="noopener noreferrer"  class="image fit thumb"><img src="images/fulls/car.gif" alt="" /></a>
-
-
 								<h3><a href="https://github.com/michalisiakovides/Jetson-Nano-Self-Driving-Car-Web-App" target="_blank" rel="noopener noreferrer">Self-Driving Car Navigation in a Mini Town with a Web Application</a></h3>
-								<h4><a href="assets/report.pdf" target="_blank" rel="noopener noreferrer">[Report]</a></h4>
-
+								<h3><a href="assets/report.pdf" target="_blank" rel="noopener noreferrer">[Report]</a></h3>
 								<p>Computer Vision-based self-driving car with the ability to navigate in a simulated and real-life mini-town, while showcasing real-time data visualisation through a user-friendly web application. The project was part of the 3rd year individual project.</p>
 							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://youtu.be/88K1Z-ZuRkc" target="_blank" rel="noopener noreferrer" class="image fit thumb"><img src="images/fulls/esp.gif" alt="" /></a>
 								<h3><a href="https://github.com/AdomasGrigolis/ESP14" target="_blank" rel="noopener noreferrer">Embedded Systems Project</a></h3>
 								<p>STM32-based line following buggy capable of navigating through various tracks. My role in the team was to design the PCB to integrate IR sensors for the line-following functionality.</p>
 							</article>
-					
-						
+				
 					</section>
-
-
 
 				<!-- Competitions -->
 					<section id="competitions">
 						<h2>COMPETITIONS</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/hackathon2024.jpg" target="_blank" rel="noopener noreferrer" class="image fit thumb"><img src="images/thumbs/hackathon2024.jpg" alt="" /></a>
+								<h3><a href="https://github.com/CS101-o/robots-team-5" target="_blank" rel="noopener noreferrer">UoM Robotics Society Hack-A-Bot2024</a></h3>
+								<p>A basic swarm consisting of 2 robots was deployed to navigate and map the entire maze using the MONA robots. My role in the team was to develop localisation software. 
+									This software utilised infrared proximity sensors to determine the position of the walls relative to a global frame and the robot's orientation. 
+									Additionally, I worked on communication software utilising NRF24 radio modules for ground control and communication between the agents.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/thumbs/hackathon.jpg" target="_blank" rel="noopener noreferrer" class="image fit thumb"><img src="images/thumbs/hackathon.jpg" alt="" /></a>
 								<h3><a href="https://github.com/UoM-Robotics-Society/HackABot2023" target="_blank" rel="noopener noreferrer">UoM Robotics Society Hack-A-Bot2023</a></h3>
+								<p>A basic swarm consisting of 2 robots was developed to play football against another team using the MONA Robots. 
+									My role in the team was to develop communication software (NRF24 radio modules) for ground control and the agents.</p>
+							</article>
 
-								<p>Basic swarm to play football against another team using the MONA Robots. My role in the team was to develop the communications software
-(NRF24 radio modules) for ground control and the agents.</p>
-					</article>
-
-
-	<article class="col-6 col-12-xsmall work-item">
-	 <a href="images/fulls/cansat.mp4" target="_blank" rel="noopener noreferrer" class="image fit thumb"><img src="images/fulls/cansat.gif" alt="" /></a><h3>American Astronautical Society (AAS) CanSat</h3>
-
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/cansat.mp4" target="_blank" rel="noopener noreferrer" class="image fit thumb"><img src="images/fulls/cansat.gif" alt="" /></a><h3>American Astronautical Society (AAS) CanSat</h3>
 								<p>Can-sized satellite equipped with microcontrollers, sensors, and communication equipment to perform various tasks, such as collecting data and transmitting it to a ground station. My role in the team was to select the necessary sensors and design the PCBs.</p>
-					</article>
-
-	
-				
+							</article>
 					</section>
-
-
-
 
 				<!-- Videos -->
 					<section id="videos">
@@ -137,64 +157,63 @@ I'm passionate about technology and love working with the latest software and ha
 					<section id="skills">
 						<h2>SKILLS</h2>
 						    
-    <div class="logo-container">
-		<a href="assets/python.pdf" target="_blank" rel="noopener noreferrer">
-        <img class="programming-logo" src="images\thumbs\python.png" alt="Python"></a>
-    </div>
-    <div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\c.png" alt="C">
-    </div>
-<div class="logo-container">
-	<a href="assets/c++.pdf" target="_blank" rel="noopener noreferrer">
-    <img class="programming-logo" src="images\thumbs\cpp.png" alt="C++"></a>
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\matlab.png" alt="Matlab">
-    </div>
+						<div class="logo-container">
+							<a href="assets/python.pdf" target="_blank" rel="noopener noreferrer">
+							<img class="programming-logo" src="images\thumbs\python.png" alt="Python"></a>
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\c.png" alt="C">
+						</div>
+						<div class="logo-container">
+							<a href="assets/c++.pdf" target="_blank" rel="noopener noreferrer">
+							<img class="programming-logo" src="images\thumbs\cpp.png" alt="C++"></a>
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\matlab.png" alt="Matlab">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\opencv.png" alt="OpenCV">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\tf.png" alt="Tensorflow">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\pytorch.png" alt="PyTorch">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\git.png" alt="Git">
+						</div>
+						<div class="ros-container">
+							<img class="ros-logo" src="images\thumbs\ros.png" alt="Ros">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\vscode.png" alt="VSCode">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\pycharm.png" alt="PyCharm">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\jupyter.png" alt="Jupyter">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\arduino.png" alt="Arduino">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\rpi.png" alt="Raspberry">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\altium.png" alt="Altium">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\labview.png" alt="Labview">
+						</div>
+						<div class="logo-container">
+							<img class="programming-logo" src="images\thumbs\tinkercad.png" alt="Tinkercad">
+						</div>
 
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\opencv.png" alt="OpenCV">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\tf.png" alt="Tensorflow">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\pytorch.png" alt="PyTorch">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\git.png" alt="Git">
-    </div>
-	<div class="ros-container">
-        <img class="ros-logo" src="images\thumbs\ros.png" alt="Ros">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\vscode.png" alt="VSCode">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\pycharm.png" alt="PyCharm">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\jupyter.png" alt="Jupyter">
-    </div>
-<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\arduino.png" alt="Arduino">
-    </div>
-	<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\rpi.png" alt="Raspberry">
-    </div>
-	<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\altium.png" alt="Altium">
-    </div>
-	<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\labview.png" alt="Labview">
-    </div>
-	<div class="logo-container">
-        <img class="programming-logo" src="images\thumbs\tinkercad.png" alt="Tinkercad">
-    </div>
-
-	<ul class="actions">
-		<li><a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer" class="button">CV</a></li>
-	</ul>
+						<ul class="actions">
+							<li><a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer" class="button">CV</a></li>
+						</ul>
 
 					</section>
 
@@ -562,12 +581,27 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="mailto:michalis.iacovides2002@gmail.com" target="_blank" rel="noopener noreferrer" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; michalisiakovides 2023</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; michalisiakovides 2024</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
 
 		<!-- Scripts -->
+			
+		<script>
+			function openFusion360Popup() {
+				var modal = document.getElementById("fusion360Modal");
+				var iframe = document.getElementById("fusion360Viewer");
+				iframe.src = "https://postgrad297.autodesk360.com/shares/public/SH512d4QTec90decfa6ebf9370ef393e15b3?mode=embed";
+				modal.style.display = "block";
+			}
+		
+			function closeFusion360Popup(event) {
+				event.preventDefault(); // Prevent the default behavior of the anchor link
+				var modal = document.getElementById("fusion360Modal");
+				modal.style.display = "none";
+			}
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
