@@ -6,6 +6,70 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Modal styles */
+/* Adjust the modal and modal-content styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px; /* Add padding to create space around the modal content */
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: auto; /* Center the modal content horizontally */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 1000px; /* Set width to 1000px */
+	height: 1000px; /* Set height to 900px (adjust as needed) */
+	max-width: 100%; /* Adjust the maximum width as needed */
+	max-height: 100%; /* Adjust the maximum height as needed */
+	overflow: hidden; /* Add overflow property to enable scrolling if needed */  
+}
+
+/* Adjust the iframe style */
+iframe {
+  border: none;
+  width: 100%; /* Make the iframe fill the modal content */
+  height: 100%; /* Make the iframe fill the modal content */
+}
+
+.close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+.image.avatar:hover{
+	transition: transform .5s ease;
+	transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.image.avatar:not(:hover) {
+	transition: transform .5s ease;
+
+    transform: scale(1); /* Return to original size when not hovered */
+}
+
+
+/* Define the hover effect for the highlighted spans */
+#header .inner .highlight:hover {
+    color: rgb(255, 255, 255); /* Change the text color to green on hover */
+}
+
 
 /* Apply styles to the container to create rows */
 .logo-container {
